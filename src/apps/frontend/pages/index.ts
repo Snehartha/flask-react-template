@@ -7,6 +7,7 @@ import Signup from 'frontend/pages/authentication/signup';
 import Dashboard from 'frontend/pages/dashboard';
 import Login from 'frontend/pages/login';
 import NotFound from 'frontend/pages/not-found/not-found.page';
+import { TasksPage, CommentsPage } from 'frontend/pages/tasks';
 
 export {
   About,
@@ -18,4 +19,6 @@ export {
   OTPVerificationPage,
   PhoneLogin,
   Login,
+  TasksPage,
+  CommentsPage,
 };
